@@ -1,0 +1,44 @@
+*{body{
+    width:100% auto;
+    background-color: hsl(64, 64%, 65%);
+    padding:30px;
+}
+h1,h2{
+    background-color: aqua;
+}
+table{
+    font-style: Rubik Scribble;
+    background-color:#ff4f00;
+    color:rgb(0, 255, 115);
+    padding: 10px;
+}
+th{
+    color:aqua;
+    padding: 10px;}
+.başliklar{
+    font-size:20px;}
+.altbaşlik{
+    font-size:10px;}
+}
+.rubik-scribble-regular {
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #myDiv{
+    background-color: #ff4f00;
+  }
+  .links{
+    border:1px solid hsl(0, 82%, 32%); /*For debugging*/
+    display: flex;
+    justify-content: flex-end;
+  }
+  .menu{
+    border:1px solid hsl(0, 82%, 32%); /*For debugging*/
+    display: flex;
+    justify-content: space-between
+  }
+  .date{
+    border:1px solid hsl(0, 82%, 32%); /*For debugging*/
+    background-color: aliceblue;
+  }
