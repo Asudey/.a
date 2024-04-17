@@ -1,16 +1,33 @@
 *body{
-    background-color: hwb(0 0% 100%);
+    margin: 0 auto;
     width:100% auto;
     padding:30px;
-    color: hwb(0 0% 100%);
+    text-align: end;
 }
-h1,h2{
-  color: hwb(hue white black);
-  background-color: rgb(255, 128, 128);
+.border{
+  border-style: calc(50);
+  border-color: aqua;
+  border-left-style: groove;
+  border: 1px solid red;
   border-radius: 500px;
-  border-bottom: hwb(180 18% 82%);
+}
+h1{
+  font-size: 50px;
+  margin: 20px 40%;
+  color: #ffffff;
+  border-style: calc(50);
+  border-color: aqua;
+  border-left-style: groove;
+  border: 1px solid red;
+  border-radius: 500px;}
+h2{
+  color: red;
+  margin: 10px 40%;
+  font-size: 30px;
+  font-style: italic;
 }
 table{
+  margin: auto;
     font-style: Rubik Scribble;
     background-color:hwb(180 18% 82%);
     color:hwb(0 100% 0%);
@@ -20,26 +37,31 @@ th{
     color:rgb(255, 255, 255);
     padding: 10px;}
 .başliklar{
-  color: hwb(hue white black)   ;
+    color: hwb(hue white black)   ;
     font-size:20px;
     font-style: italic;}
 .altbaşliklar{
-  color: hwb(hue white black);
-      font-size: 10px;
-  font-style: italic;}
+    color: hwb(hue #ffffff);
+    font-size: 10px;
+    font-style: italic;}
 .rubik-scribble-regular {
     font-family: "Rubik Scribble", system-ui;
-    font-weight: 400;
+    font-weight: 1000;
     font-style: normal;
   }
   #myDiv{
     background-color: hsl(0, 1%, 47%);
   }
   .links{
+    color: #ff4f00;
     display: flex;
     justify-content: flex-end;
   }
+  .iletisim{
+    color: hsl(0, 46%, 45%)
+  }
   .login{
+    color: hsl(0, 81%, 58%) ;
     margin-left: 5%;
   }
   .menu{
@@ -53,12 +75,6 @@ th{
     border-width: 4px;
     border-color: rgb(223, 8, 8);
     background-color: hsl(0, 1%, 47%);}
-  h1{
-    border-style:dotted;
-    border-color: aqua;
-    border-left-style: groove;
-    border: 1px solid red;
-    border-radius: 500px;}
   table{
     border-style:dotted;
     border-color: aqua;
@@ -66,8 +82,6 @@ th{
     border: 1px solid red;
     border-radius: 500px;
   }
-  h1{
-    margin: 20px 100px;}
   .flex-container{
     display: flex;
     flex-direction: row;
@@ -81,8 +95,8 @@ th{
     order: 2;
   }
   .header-container{
-    color:#ff4f00;
-    background-color: aqua;
+    color:hsl(123, 100%, 50%);
+    background-color: hsl(120, 100%, 50%);
     display: flex;
     justify-content: center;}
 .header{
@@ -106,6 +120,6 @@ th{
   flex-wrap: wrap;
 }
 .photo-grid-item{
-  border: 5px solid hwb(19 0% 0% / 0.527);
+  border: 5px solid hsla(86, 50%, 60%, 0.525);
   width: 300px;
 }
