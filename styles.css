@@ -1,21 +1,22 @@
 *body{
     width:100% auto;
-    background-color: hsl(64, 64%, 65%);
+    background-color: hwb(0 0% 100%);
     padding:30px;
+    color: hwb(0 100% 0%);
 }
 h1,h2{
-    background-color: aqua;
+    background-color: hwb(180 18% 82%);
     border-radius: 500px;
     border-bottom: #ff4f00;
 }
 table{
     font-style: Rubik Scribble;
-    background-color:#ff4f00;
-    color:rgb(0, 255, 115);
+    background-color:hwb(180 18% 82%);
+    color:hwb(0 100% 0%);
     padding: 10px;
 }
 th{
-    color:aqua;
+    color:rgb(255, 255, 255);
     padding: 10px;}
 .başliklar{
     font-size:20px;
@@ -32,7 +33,6 @@ th{
     background-color: #ff4f00;
   }
   .links{
-    border:1px solid hsl(0, 82%, 32%); /*For debugging*/
     display: flex;
     justify-content: flex-end;
   }
@@ -40,18 +40,16 @@ th{
     margin-left: 5%;
   }
   .menu{
-    border:1px solid hsl(0, 82%, 32%); /*For debugging*/
     display: flex;
     justify-content: space-between
   }
   .date{
-    border:1px solid hsl(0, 82%, 32%); /*For debugging*/
-    background-color: aliceblue;
+    background-color: hsl(0, 1%, 47%);
   }
   p{
-    border-style: dotted;
     border-width: 4px;
-    border-color: aqua;}
+    border-color: rgb(223, 8, 8);
+    background-color: hsl(0, 1%, 47%);}
   h1{
     border-style:dotted;
     border-color: aqua;
