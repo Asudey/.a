@@ -4,90 +4,92 @@
     padding:30px;
     text-align: end;
 }
-.border{
-  border-style: calc(50);
-  border-color: aqua;
-  border-left-style: groove;
-  border: 1px solid red;
-  border-radius: 500px;
+.amatic-sc-regular {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.amatic-sc-bold {
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 1000;
+  font-style: normal;
 }
 h1{
-  font-size: 50px;
-  margin: 20px 40%;
+  font-size: 100px;
+  margin: 5px 40%;
   color: #ffffff;
-  border-style: calc(50);
-  border-color: aqua;
-  border-left-style: groove;
-  border: 1px solid red;
-  border-radius: 500px;}
+}
 h2{
   color: red;
   margin: 10px 40%;
   font-size: 30px;
-  font-style: italic;
 }
 table{
-  margin: auto;
-    font-style: Rubik Scribble;
-    background-color:hwb(180 18% 82%);
-    color:hwb(0 100% 0%);
-    padding: 10px;
+  font-size: 100px;
+  margin: 50px 40%;
+  color:hwb(0 100% 0%);
 }
 th{
-    color:rgb(255, 255, 255);
-    padding: 10px;}
-.başliklar{
-    color: hwb(hue white black)   ;
-    font-size:20px;
-    font-style: italic;}
-.altbaşliklar{
-    color: hwb(hue #ffffff);
-    font-size: 10px;
-    font-style: italic;}
+  color:rgb(255, 0, 0);
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
+td{
+  color:#ffffff;
+  font-family: "Amatic SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: large;
+}
 .rubik-scribble-regular {
     font-family: "Rubik Scribble", system-ui;
     font-weight: 1000;
     font-style: normal;
   }
   #myDiv{
-    background-color: hsl(0, 1%, 47%);
+    background-color: hwb(0 0% 100%);
   }
   .links{
-    color: #ff4f00;
+    color:#ffffff;
     display: flex;
+    font-size: 25px;
     justify-content: flex-end;
-  }
-  .iletisim{
-    color: hsl(0, 46%, 45%)
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
   }
   .login{
-    color: hsl(0, 81%, 58%) ;
     margin-left: 5%;
+    font-size: 25px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
   }
   .menu{
+    color: #ffffff;
+    font-size: 25px;
     display: flex;
-    justify-content: space-between
-  }
-  .date{
-    background-color: hsl(0, 1%, 47%);
+    justify-content: space-between;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    
   }
   p{
     border-width: 4px;
     border-color: rgb(223, 8, 8);
     background-color: hsl(0, 1%, 47%);}
   table{
-    border-style:dotted;
-    border-color: aqua;
-    border-left-style: dotted;
-    border: 1px solid red;
-    border-radius: 500px;
+    font-size: 10px;
   }
   .flex-container{
-    display: flex;
-    flex-direction: row;
-    height: 10vh;
+    display:block;
+    flex-direction:column;
+    height: 40%;
     justify-content: space-evenly;
-    align-items: center;
+    align-items:center;
   }
   .flex-item{
     flex:0 1 auto;/*flex-grow flex-shrink flex-basis*/
