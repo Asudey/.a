@@ -16,32 +16,22 @@
 }
 h1{
   font-size: 100px;
-  margin: 5px 40%;
+  margin: 5px 30%;
   color: #ffffff;
 }
 h2{
   color: red;
-  margin: 10px 40%;
+  margin: 1px 30%;
   font-size: 30px;
 }
-table{
-  font-size: 100px;
-  margin: 50px 40%;
+ul{
+  margin: 50px 30%;
   color:hwb(0 100% 0%);
-}
-th{
-  color:rgb(255, 0, 0);
   font-family: "Amatic SC", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: large;
-}
-td{
-  color:#ffffff;
-  font-family: "Amatic SC", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: large;
+  font-size: 50px;
+  margin-left: 10px 10%;
 }
 .rubik-scribble-regular {
     font-family: "Rubik Scribble", system-ui;
@@ -75,7 +65,6 @@ td{
     font-family: "Amatic SC", sans-serif;
     font-weight: 1000;
     font-style: normal;
-    
   }
   p{
     border-width: 4px;
@@ -93,7 +82,7 @@ td{
   }
   .flex-item{
     flex:0 1 auto;/*flex-grow flex-shrink flex-basis*/
-    align-self: center;
+    align-self:auto;
     order: 2;
   }
   .header-container{
