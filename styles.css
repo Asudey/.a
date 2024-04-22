@@ -25,7 +25,12 @@ li{
 h2{
   color: red;
   margin: 1px 30%;
-  font-size: 30px;
+  font-size: 40px;
+}
+h3{
+  color: red;
+  margin: 1px 10%;
+  font-size: 40px;
 }
 ul{
   margin: 50px 30%;
@@ -92,17 +97,32 @@ ul{
 }
 .photo-grid-container{
   display: flex;
-  justify-content:space-between;
+  justify-content:center;
+  flex-wrap: wrap;
   align-self: auto;
   object-fit: contain;
 }
 .photo-grid{
-  width: 0px;
+  width: 100%;
   display: flex;
   /*...*/
   flex-wrap: wrap;
 }
-.photo-grid-item{
-  border: 5px solid hsla(86, 50%, 60%, 0.525);
-  width: 3px;
+.projeler{
+  font-size: 16px; 
+  font-family:  "Orbitron", system-ui;
+  margin-top: 10px;
+}
+.photo-grid-item {
+display: flex;
+width: 49%;
+object-position: top;
+object-fit: scale-down;
+border: 5px solid hsla(86, 50%, 60%, 0.525);
+
+
+}
+
+.photo-grid-item img{
+max-width: 100%;
 }
