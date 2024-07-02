@@ -1,67 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel='stylesheet'href='styles.css'/>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASUDE</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='styles.css' />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASUDE</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body bgcolor="A99E9E">
-    <div class='menu'>
-        <div id='clickableDate' class='date'>tarih</div>
-        <div class="links">
-            <div class="signup">sign up</div>   <!--this is nested now-->
-            <div class="login">Login</div>          <!--this one too!-->
-            <div class="login">İletişim</div>    <!--this one too!-->
-        </div>
+  <div class='menu'>
+    <div id='clickableDate' class='date'>Date</div>
+    <div class="links">
+      <div class="signup">sign up</div>
+      <!--this is nested now-->
+      <div class="login">Login</div>
+      <!--this one too!-->
+      <div class="login">İletişim</div>
+      <!--this one too!-->
     </div>
+  </div>
+  </div>
+  <h1 class='amatic-sc-bold'>Asude Yaşar</h1>
+  <h2 class="amatic-sc-regular">architecture student</h2>
+  <div class="bgcolor-button-div">
+    <button class="bgcolor-button" onclick="changeBackgroundColor()">change background color</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
+  <br>
+  <br>
+  <ul>
+    <li><a href="ArchitecturalProjects.html">Architectural Projects</a></li>
+    <li><a href="Details.html">Details</a></li>
+    <li><a href="Competitions.html">Competitions</a></li>
+    <li><a href="Sketches.html">Sketches</a></li>
+    <li><a href="Architectural Photography.html">Architectural Photography</a></li>
+  </ul>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr>
+  <h3 class="amatic-sc-regular">Competitions;</h3>
+  <div class='photo-grid-container'>
+    <div class="photo-grid">
+      <div class="photo-grid-item">
+        <img id="competition-img" src="images/Yarışma/yarışma1.jpg">
+      </div>
+      <div class="photo-grid-item">
+        <img id="competition-img" src="images/Yarışma/yarışma2.jpg">
+      </div>
+      <div class="photo-grid-item">
+        <img id="competition-img" src="images/Yarışma/yarışma3.jpg">
+      </div>
+      <div class="photo-grid-item">
+        <img id="competition-img" src="images/Yarışma/yarışma4.jpg">
+      </div>
     </div>
-    <h1 class='amatic-sc-bold'>Asude Yaşar</h1>
-    <h2 class="amatic-sc-regular">architecture student</h2>
-    <br>
-    <br>
-    <br>
-    <br>
-    <hr>
-    <br>
-    <br>
-    <br>
-    <br>
-    <ul>
-        <li><a href="ArchitecturalProjects.html">Architectural Projects</a></li> 
-        <li><a href="Details.html">Details</a></li>
-        <li><a href="Competitions.html">Competitions</a></li>
-        <li><a href="Sketches.html">Sketches</a></li>
-        <li><a href="Architectural Photography.html">Architectural Photography</a></li>
-    </ul>
-</div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<hr>   
-<h3 class="amatic-sc-regular">Competitions;</h3>
-    <div class='photo-grid-container'>
-        <div class="photo-grid">
-           <div class="photo-grid-item">
-               <img src="images/Yarışma/yarışma1.jpg" width="1680px" height="590px">
-           </div>
-           <div class="photo-grid-item">
-               <img src="images/Yarışma/yarışma2.jpg" width="1680px" height="590px">
-           </div>
-           <div class="photo-grid-item">
-            <img src="images/Yarışma/yarışma3.jpg" width="1680px" height="590px">
-        </div>
-        <div class="photo-grid-item">
-            <img src="images/Yarışma/yarışma4.jpg" width="1680px" height="590px">
-        </div>
-        </div>
-       </div>
-       <script src="js.js" charset="utf-8"></script>
+  </div>
+  <div class="modal" id="imageModal">
+    <div class="modal-content" id="modalContent">
+        <img id="modalImage" src="">
+    </div>
+  </div>
+  <script src="js.js" charset="utf-8"></script>
 </body>
+
 </html>
